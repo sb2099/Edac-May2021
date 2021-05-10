@@ -1,0 +1,290 @@
+Ques.1
+
+class LB_ass1_1
+{
+ public static void main(String args[])
+  {
+    System.out.println("Hello") ;
+	 System.out.println("Supriya Bhokre");
+  }
+}  
+
+
+Ques.2
+
+class LB_ass1_2
+{
+ public static void main(String args[])
+  {
+    System.out.println(+(74+36)) ;
+  }
+}  
+	 
+
+Ques.3
+
+class LB_ass1_3
+{
+ public static void main(String args[])
+  {
+    System.out.println(50/3) ;
+  }
+}  
+	 
+
+Ques.4
+
+class LB_ass1_4
+{
+ public static void main(String args[])
+  {
+   
+	 System.out.println(-5+8*6) ;
+	 System.out.println((55+9)%9) ;
+	 System.out.println(20+ -3*5/8) ;
+	 System.out.println(5+15/3*2-8%3) ;
+  }
+}  
+	 
+Ques.5
+
+import java.util.*;
+import java.lang.*;
+
+class LB_ass1_5
+{
+public static void main(String args[])
+{
+   Scanner sc = new Scanner(System.in);
+   System.out.print("Input first no:");
+   int i=sc.nextInt();
+   System.out.print("Input second no:");
+   int j=sc.nextInt();
+   int k=i*j;
+   
+   System.out.println(i + "*" + j + "=" + k);    
+}
+}
+
+
+Ques.6
+
+import java.util.*;
+import java.lang.*;
+
+class  LB_ass1_6
+{
+public static void main(String args[])
+{
+   Scanner sc = new Scanner(System.in);
+   
+   System.out.print("Input first no:");
+   int i=sc.nextInt();
+   System.out.print("Input second no:");
+   int j=sc.nextInt();
+   
+    int a=i+j;
+    int b=i-j;
+	int c=i*j;
+	int d=i/j;
+	int e=i%j;
+	
+	System.out.println("Expected Output:");
+	System.out.println(i + "+" + j + "=" + a);
+	System.out.println(i + "-" + j + "=" + b);
+	System.out.println(i + "*" + j + "=" + c);
+	System.out.println(i + "/" + j + "=" + d);
+	System.out.println(i + "mod" + j + "=" + e);	   
+}   
+}   
+   
+   
+Ques.7
+
+import java.util.*;
+import java.lang.*;
+
+class  LB_ass1_6
+{
+public static void main(String args[])
+{
+   Scanner sc = new Scanner(System.in);
+   
+   System.out.print("Input first no:");
+   int i=sc.nextInt();
+   System.out.print("Input second no:");
+   int j=sc.nextInt();
+   
+    int a=i+j;
+    int b=i-j;
+	int c=i*j;
+	int d=i/j;
+	int e=i%j;
+	
+	System.out.println("Expected Output:");
+	System.out.println(i + "+" + j + "=" + a);
+	System.out.println(i + "-" + j + "=" + b);
+	System.out.println(i + "*" + j + "=" + c);
+	System.out.println(i + "/" + j + "=" + d);
+	System.out.println(i + "mod" + j + "=" + e);	   
+}   
+}   
+   
+
+Ques.8
+
+class LB_ass1_8
+{
+  public static void main(String args[])
+   {
+     System.out.println( "    j    a   v     v  a    ");
+	 System.out.println( "    j   a a   v   v  a a   ");
+	 System.out.println( " j  j  aaaaa   v v  aaaaa  ");
+	 System.out.println( "  jj  aaaaaaa   v  aaaaaaa ");
+   }
+}   
+
+
+Ques.9
+
+class LB_ass1_9
+{
+ public static void main(String args[])
+  {
+    System.out.println((25.5*3.5-3.5*3.5)/(40.5-4.5)) ;
+  }
+}  
+	 
+
+Ques.10
+
+class LB_ass1_10
+{
+ public static void main(String args[])
+  {
+    System.out.println(4.0*(1-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11))) ;
+  }
+}  
+
+Ques.11
+
+import java.util.*;
+import java.lang.*;
+
+class LB_ass1_11
+{
+ public static void main(String args[])
+  {
+    Scanner sc = new Scanner(System.in);
+	System.out.println("Radius=") ;
+	double r = sc.nextDouble();
+	System.out.println("Perimeter=" + (2*3.14*r)) ;
+	System.out.println("Area=" + (3.14*r*r)) ;
+  }
+}  
+
+Ques.12
+
+import java.util.*;
+import java.lang.*;
+
+class LB_ass1_12
+{
+ public static void main(String args[])
+  {
+    Scanner sc = new Scanner(System.in);
+	System.out.print("Enter 3 No.s= ") ;
+	float a = sc.nextFloat();
+	float b = sc.nextFloat();
+	float c = sc.nextFloat();
+	System.out.println("Average of 3 no.s= " +(a+b+c)/3) ;
+	
+  }
+}  
+	 
+
+Ques.13
+
+import java.util.*;
+import java.lang.*;
+
+class LB_ass1_13
+{
+ public static void main(String args[])
+  {
+    Scanner sc = new Scanner(System.in);
+	System.out.print("Width=") ;
+	float w = sc.nextFloat();
+	System.out.print("Height=") ;
+	float h = sc.nextFloat();
+	System.out.println("Area is "+w+ "*" +h+"=" + (w*h)) ;
+	System.out.println("Perimeter is "+w+ "*" +h+"=" + (2*(w+h))) ;	
+  }
+}  
+	 
+
+Ques. 15
+
+import java.util.*;
+class LB_ass1_15
+{
+  public static void main(String args[])
+   {
+	 Scanner sc = new Scanner(System.in);
+     System.out.print("i= ");
+	 int i= sc.nextInt();
+     System.out.print("j= "); 	 
+	 int j= sc.nextInt();
+	 int temp;
+	 
+     System.out.println( "Before Swapping: " + " i= " + i + " j= " + j);
+	 
+	 temp=i;
+	 i=j;
+	 j=temp;
+	 
+	 System.out.println( "After Swapping: " + " i= " + i + " j= " + j);
+   }
+}   
+
+
+Ques.16
+
+class LB_ass1_16
+{
+  public static void main(String args[])
+   {
+	System.out.println("   +"""""+    ");
+	System.out.println("  [| 0 0 |]   ");
+	System.out.println("   |  ^  |    ");
+	System.out.println("   | '-' |    ");
+	System.out.println("   +-----+    ");
+   }
+}   	 	    
+
+
+Ques.19
+
+import java.util.*;
+import java.lang.*;
+
+class LB_ass1_19
+{
+ public static void main(String args[])
+  {
+    int binary[]=new int[50];
+	int index=0;
+	int n=5;
+	while(n>0)
+	{
+		binary[index++]= n%2;
+		n=n/2;
+	}
+    for(int i=index-1;i>=0;i--)
+    {
+      System.out.print(binary[i]);
+	}	  
+  }
+}  
+
+

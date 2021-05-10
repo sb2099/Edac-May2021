@@ -1,0 +1,140 @@
+Ques1:
+
+import java.util.*;
+
+class arr_merge
+{
+ public static void main(String args[])
+ {
+ int a1[]={23,60,94,3,102};
+ int b1[]={42,16,74};
+ int count=a1.length+b1.length;
+ int j=0,k=0;
+
+ for(int i=1;i<=count+1;i++)
+  {
+    if(i==1||i%2!=0)
+	 {
+	   System.out.print(a1[j]+" ");
+	   ++j;
+	 }
+	else if(k<b1.length)
+     {
+        System.out.print(b1[k]+" ");
+		++k;
+	 }
+	else 
+      {
+        continue;
+      }
+   }
+  }
+}  
+	 
+
+Ques.2:
+
+import java.util.*;
+import java.lang.*;
+
+class arr_avrg
+{
+public static void main(String[] args)
+ {
+  Scanner sc=new Scanner(System.in);
+  int a1[]= new int[5];
+  
+  System.out.println("Enter Input: ");
+  for(int i=0;i<a1.length;i++)
+  {
+	 a1[i]=sc.nextInt();
+  }	 
+	
+  System.out.println("output: "); 	
+  for(int i=0;i<a1.length;i++)
+  {	
+    System.out.print(a1[i]+" "); 		 
+  }
+  
+  System.out.println("Average: "); 	
+  for(int i=0;i<a1.length-2;i++)
+  {	
+	int avg;
+	avg= (a1[i]+a1[i+1]+a1[i+2])/3;
+	System.out.print(avg+" "); 		 
+  }
+  
+   
+  }
+ } 
+
+
+Ques.3:
+
+import java.util.*;
+import java.lang.*;
+
+class arrseries
+{
+ public static void main(String[] args)
+  {
+   int a[]=new int[7];
+   
+   for(int i=0;i<a.length;i++)
+   {
+     if(i%2==0)
+	    { System.out.print((i*i) + " ");  }
+	 else
+        { System.out.print(" "+(i*i*i)+" ");  }	
+   }
+  }   
+ }  
+
+
+Ques5:
+
+import java.util.*;
+import java.lang.*;
+
+class arr_3rdlarge
+{
+ public static void main(String[] args)
+  {
+   Scanner sc=new Scanner(System.in);
+  //int a[]= {24,54,31,16,82,45,67};
+   
+   int a[]= new int[7];
+   System.out.println("Enter Input");
+     for(int i=0;i<a.length;i++)
+      {
+	    a[i]=sc.nextInt();
+      }  	 
+  System.out.println("Given array: "); 	
+     for(int i=0;i<a.length;i++)
+      {	
+        System.out.print(a[i]+" "); 		 
+      }
+    System.out.println(); 	 
+   
+   //3rd Largest number of array
+   for(int i=0;i<a.length;i++)
+   {
+      for(int j=i+1;j<a.length;j++)
+        {
+          if(a[i] > a[j])
+	       { 
+		    int temp=a[i];
+		    a[i]=a[j];
+		    a[j]=temp;
+		   }
+		}
+	}
+	System.out.print("3rd Largest no.: "+ a[(a.length)-3]);
+  }   
+ }  
+ 
+
+
+
+
+ 
