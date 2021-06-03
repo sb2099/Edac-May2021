@@ -1,0 +1,159 @@
+import java.util.*;
+
+
+class basic
+{
+	public static void main(String args[])
+	{
+		System.out.println("Hello World");
+	}
+}	
+
+
+class basic
+{
+	public static void main(String args[])
+	{
+		int rollno=100;
+		System.out.println("roll no= "+rollno);
+	}
+}	
+
+
+class expression
+{
+	public static void main(String args[])
+	{
+		int x=1,y=2,z=3;
+		
+		y=x^2+3*x-7;
+		System.out.println(y);
+		
+		y=x++ + ++x;
+		System.out.println(y);
+		
+		z=x++ + --y - --x + x++;
+		System.out.println(z);
+		
+        boolean a=true, b=false, c;
+		
+		c=a&&b || !(a||b);
+		System.out.println(c);
+  	}
+}	
+
+
+class argument
+{
+	public static void main(String args[])
+	{
+      // Give your name with run command execution
+		System.out.println("Welcome "+ args[0]);
+	}
+}	
+
+
+class byteadd
+{
+	public static void main(String args[])
+	{
+		byte a=12, b=15, c=0;
+		int i=a;
+		int j=b; int k=c; 
+		k=i+j;
+		System.out.println(k);
+	}
+}	
+
+
+class circle
+{
+	public static void main(String args[])
+	{
+	    Scanner sc=new Scanner(System.in);	
+		System.out.println("Enter radius of circle= ");
+		float r=sc.nextFloat();
+		System.out.println("Area= "+ (3.14*r*r));
+		System.out.println("Circumference = "+ (2*3.14*r));
+	}
+}	
+
+
+class marks
+{
+	public static void main(String args[])
+	{
+	Scanner sc=new Scanner(System.in);	
+	System.out.println("Enter 5 subject marks: ");
+    int m1= sc.nextInt();
+	int m2= sc.nextInt();
+	int m3= sc.nextInt();
+	int m4= sc.nextInt();
+	int m5= sc.nextInt();
+	int sum=0;
+	sum=m1+m2+m3+m4+m5;
+	System.out.println("Sum of Marks= "+ sum);
+	
+	System.out.println("Enter obtained marks: ");
+	float mks= sc.nextFloat();
+	float per=(mks/500)*100;
+	System.out.println("Percentage Marks= "+ per+"%");
+	}
+}	
+	
+
+class swap
+{
+	public static void main(String args[])
+	{
+		int a=10, b=20;
+		int c;
+		System.out.println("Before Swapping: "+"a= "+a+" b= "+b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("After Swapping: "+"a= "+a+" b= "+b);
+	}
+}
+
+
+class greater
+{
+   public static void main(String args[])
+   {
+	Scanner sc=new Scanner(System.in);	
+	System.out.println("Enter 3 numbers: ");
+    int n1= sc.nextInt();
+	int n2= sc.nextInt();
+	int n3= sc.nextInt();   
+	
+	System.out.println("Using if: ");
+	if(n1>n2 && n1>n3)
+		System.out.println(" Greater number: "+n1);
+	else if(n2>n1 && n2>n3)
+		System.out.println(" Greater number: "+n2);
+	else
+		System.out.println(" Greater number: "+n3);
+	
+	System.out.println("Using ternery: ");
+	int a=(n1>n2 && n1>n3)?n1:(n2>n1 && n2>n3)?n2:n3;
+	System.out.println(" Greater no.: "+a);
+   }
+}  
+
+
+class leapyr
+{
+  public static void main(String args[])
+  {
+	Scanner sc=new Scanner(System.in);	
+	System.out.println("Enter year: ");
+    int yr= sc.nextInt();
+	
+	 if (((yr % 4 == 0) && (yr % 100!= 0)) || (yr%400 == 0))
+         System.out.println(yr+" is a leap year");
+      else
+         System.out.println(yr+" is not a leap year");
+   }
+}
+
