@@ -1,0 +1,26 @@
+import java.util.*;
+class Criteria extends Exception{
+	
+	public Criteria(String str){
+		super(str);
+	}
+}
+public class Voting {
+
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter your age:");
+		int age = sc.nextInt();
+		sc.close();
+		if(age<18) {
+			try {
+				Criteria ex = new Criteria("Not eligible to vote!");
+				throw ex;
+			}catch(Criteria a) {
+				System.out.println(a.getMessage());
+			}
+		}else {
+			System.out.println("Eligible to vote!");
+		}
+	}
+}
